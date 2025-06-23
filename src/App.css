@@ -10,7 +10,15 @@ header{
 
 }
 .countries-container{
+  gap: 20px;
   display: grid;
   padding: 20px;
   grid-template-columns: repeat(4, 1fr);
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px (0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
 }
